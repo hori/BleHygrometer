@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865DBBC81C3A08970023E247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DBBC71C3A08970023E247 /* main.m */; };
+		865DBBCB1C3A08970023E247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DBBCA1C3A08970023E247 /* AppDelegate.m */; };
+		865DBBCE1C3A08970023E247 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DBBCD1C3A08970023E247 /* ViewController.m */; };
+		865DBBD11C3A08970023E247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865DBBCF1C3A08970023E247 /* Main.storyboard */; };
+		865DBBD31C3A08970023E247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865DBBD21C3A08970023E247 /* Assets.xcassets */; };
+		865DBBD61C3A08970023E247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865DBBD41C3A08970023E247 /* LaunchScreen.storyboard */; };
+		865DBBE11C3A08970023E247 /* BleHygrometerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DBBE01C3A08970023E247 /* BleHygrometerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		865DBBDD1C3A08970023E247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865DBBBB1C3A08970023E247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865DBBC21C3A08970023E247;
+			remoteInfo = BleHygrometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		865DBBC31C3A08970023E247 /* BleHygrometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleHygrometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DBBC71C3A08970023E247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		865DBBC91C3A08970023E247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		865DBBCA1C3A08970023E247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		865DBBCC1C3A08970023E247 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		865DBBCD1C3A08970023E247 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		865DBBD01C3A08970023E247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		865DBBD21C3A08970023E247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865DBBD51C3A08970023E247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865DBBD71C3A08970023E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865DBBDC1C3A08970023E247 /* BleHygrometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleHygrometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DBBE01C3A08970023E247 /* BleHygrometerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleHygrometerUITests.m; sourceTree = "<group>"; };
+		865DBBE21C3A08970023E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865DBBC01C3A08970023E247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DBBD91C3A08970023E247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865DBBBA1C3A08970023E247 = {
+			isa = PBXGroup;
+			children = (
+				865DBBC51C3A08970023E247 /* BleHygrometer */,
+				865DBBDF1C3A08970023E247 /* BleHygrometerUITests */,
+				865DBBC41C3A08970023E247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865DBBC41C3A08970023E247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865DBBC31C3A08970023E247 /* BleHygrometer.app */,
+				865DBBDC1C3A08970023E247 /* BleHygrometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865DBBC51C3A08970023E247 /* BleHygrometer */ = {
+			isa = PBXGroup;
+			children = (
+				865DBBC91C3A08970023E247 /* AppDelegate.h */,
+				865DBBCA1C3A08970023E247 /* AppDelegate.m */,
+				865DBBCC1C3A08970023E247 /* ViewController.h */,
+				865DBBCD1C3A08970023E247 /* ViewController.m */,
+				865DBBCF1C3A08970023E247 /* Main.storyboard */,
+				865DBBD21C3A08970023E247 /* Assets.xcassets */,
+				865DBBD41C3A08970023E247 /* LaunchScreen.storyboard */,
+				865DBBD71C3A08970023E247 /* Info.plist */,
+				865DBBC61C3A08970023E247 /* Supporting Files */,
+			);
+			path = BleHygrometer;
+			sourceTree = "<group>";
+		};
+		865DBBC61C3A08970023E247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				865DBBC71C3A08970023E247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		865DBBDF1C3A08970023E247 /* BleHygrometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				865DBBE01C3A08970023E247 /* BleHygrometerUITests.m */,
+				865DBBE21C3A08970023E247 /* Info.plist */,
+			);
+			path = BleHygrometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865DBBC21C3A08970023E247 /* BleHygrometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DBBE51C3A08970023E247 /* Build configuration list for PBXNativeTarget "BleHygrometer" */;
+			buildPhases = (
+				865DBBBF1C3A08970023E247 /* Sources */,
+				865DBBC01C3A08970023E247 /* Frameworks */,
+				865DBBC11C3A08970023E247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleHygrometer;
+			productName = BleHygrometer;
+			productReference = 865DBBC31C3A08970023E247 /* BleHygrometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		865DBBDB1C3A08970023E247 /* BleHygrometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DBBE81C3A08970023E247 /* Build configuration list for PBXNativeTarget "BleHygrometerUITests" */;
+			buildPhases = (
+				865DBBD81C3A08970023E247 /* Sources */,
+				865DBBD91C3A08970023E247 /* Frameworks */,
+				865DBBDA1C3A08970023E247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865DBBDE1C3A08970023E247 /* PBXTargetDependency */,
+			);
+			name = BleHygrometerUITests;
+			productName = BleHygrometerUITests;
+			productReference = 865DBBDC1C3A08970023E247 /* BleHygrometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865DBBBB1C3A08970023E247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = horikun;
+				TargetAttributes = {
+					865DBBC21C3A08970023E247 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					865DBBDB1C3A08970023E247 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 865DBBC21C3A08970023E247;
+					};
+				};
+			};
+			buildConfigurationList = 865DBBBE1C3A08970023E247 /* Build configuration list for PBXProject "BleHygrometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865DBBBA1C3A08970023E247;
+			productRefGroup = 865DBBC41C3A08970023E247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865DBBC21C3A08970023E247 /* BleHygrometer */,
+				865DBBDB1C3A08970023E247 /* BleHygrometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865DBBC11C3A08970023E247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DBBD61C3A08970023E247 /* LaunchScreen.storyboard in Resources */,
+				865DBBD31C3A08970023E247 /* Assets.xcassets in Resources */,
+				865DBBD11C3A08970023E247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DBBDA1C3A08970023E247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865DBBBF1C3A08970023E247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DBBCE1C3A08970023E247 /* ViewController.m in Sources */,
+				865DBBCB1C3A08970023E247 /* AppDelegate.m in Sources */,
+				865DBBC81C3A08970023E247 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DBBD81C3A08970023E247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DBBE11C3A08970023E247 /* BleHygrometerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865DBBDE1C3A08970023E247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865DBBC21C3A08970023E247 /* BleHygrometer */;
+			targetProxy = 865DBBDD1C3A08970023E247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		865DBBCF1C3A08970023E247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865DBBD01C3A08970023E247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		865DBBD41C3A08970023E247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865DBBD51C3A08970023E247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865DBBE31C3A08970023E247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		865DBBE41C3A08970023E247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865DBBE61C3A08970023E247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BleHygrometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.horikun.BleHygrometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		865DBBE71C3A08970023E247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BleHygrometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.horikun.BleHygrometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		865DBBE91C3A08970023E247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BleHygrometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.horikun.BleHygrometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BleHygrometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		865DBBEA1C3A08970023E247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BleHygrometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.horikun.BleHygrometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BleHygrometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865DBBBE1C3A08970023E247 /* Build configuration list for PBXProject "BleHygrometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DBBE31C3A08970023E247 /* Debug */,
+				865DBBE41C3A08970023E247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DBBE51C3A08970023E247 /* Build configuration list for PBXNativeTarget "BleHygrometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DBBE61C3A08970023E247 /* Debug */,
+				865DBBE71C3A08970023E247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		865DBBE81C3A08970023E247 /* Build configuration list for PBXNativeTarget "BleHygrometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DBBE91C3A08970023E247 /* Debug */,
+				865DBBEA1C3A08970023E247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865DBBBB1C3A08970023E247 /* Project object */;
+}
