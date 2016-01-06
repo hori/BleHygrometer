@@ -1,5 +1,7 @@
 # BleHygrometer
 
+## Description
+
 This is a minimal example of project with BLE hygrometer.
 It show humidity from BLE hygrometer.
 
