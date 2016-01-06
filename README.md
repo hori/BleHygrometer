@@ -1,6 +1,6 @@
 # BleHygrometer
 
-This is a example of project with BLE hygrometer.
+This is a minimal example of project with BLE hygrometer.
 It show humidity from BLE hygrometer.
 
 <img src="https://raw.githubusercontent.com/hori/BleHygrometer/images/screenshot.png" height="400">
