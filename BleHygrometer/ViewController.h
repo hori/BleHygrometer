@@ -2,14 +2,14 @@
 //  ViewController.h
 //  BleHygrometer
 //
-//  Created by 堀口祐樹 on 2016/01/04.
-//  Copyright © 2016年 horikun. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *humidityLabel;
+@property (weak, nonatomic) IBOutlet UIView *gradientView;
 
 @end
 

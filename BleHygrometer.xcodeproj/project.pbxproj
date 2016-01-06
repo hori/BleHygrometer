@@ -400,6 +400,7 @@
 				865DBBE71C3A08970023E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		865DBBE81C3A08970023E247 /* Build configuration list for PBXNativeTarget "BleHygrometerUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +409,7 @@
 				865DBBEA1C3A08970023E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
